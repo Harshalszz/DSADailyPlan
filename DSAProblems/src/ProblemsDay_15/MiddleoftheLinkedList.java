@@ -1,4 +1,4 @@
-package ProblmesDay_15;
+package ProblemsDay_15;
 
 import ProblemsDay2.ListNode;
 

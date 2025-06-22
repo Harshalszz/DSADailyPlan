@@ -1,8 +1,6 @@
-package ProblmesDay_15;
+package ProblemsDay_15;
 
 import ProblemsDay2.ListNode;
-
-import java.util.List;
 
 public class LinkedListCycleII {
 //https://leetcode.com/problems/linked-list-cycle-ii/description/

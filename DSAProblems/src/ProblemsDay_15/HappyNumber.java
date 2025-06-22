@@ -1,4 +1,4 @@
-package ProblmesDay_15;
+package ProblemsDay_15;
 
 public class HappyNumber {
 //https://leetcode.com/problems/happy-number/description/
