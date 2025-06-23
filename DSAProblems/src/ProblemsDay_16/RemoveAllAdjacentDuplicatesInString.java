@@ -1,7 +1,7 @@
 package ProblemsDay_16;
 
 public class RemoveAllAdjacentDuplicatesInString {
-
+//
     public static String removeAllAdjacentDuplicatesInString(String s){
         StringBuilder res = new StringBuilder();
         int top=-1;
