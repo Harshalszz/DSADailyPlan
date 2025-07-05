@@ -6,7 +6,7 @@ import java.util.List;
 public class Subsets {
     //https://leetcode.com/problems/subsets/description/
     private static void backtracking(List<List<Integer>> resList, List<Integer> tempList, int start, int[] nums) {
-
+        //adding evry possible subset to reslist
         resList.add(new ArrayList(tempList));
 
         for(int i=start; i<nums.length;i++){
