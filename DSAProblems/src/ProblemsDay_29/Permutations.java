@@ -14,10 +14,11 @@ public class Permutations {
         }
 
         for(int n : nums){
+            // if list has the ele already then skip thsi ele
             if(tempList.contains(n)){
                 continue;
             }
-
+            // add
             tempList.add(n);
 
             backtracking(resList,tempList,nums);
