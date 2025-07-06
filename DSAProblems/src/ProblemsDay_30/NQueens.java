@@ -38,6 +38,7 @@ public class NQueens {
         List<String> res = new ArrayList<>();
 
         for(int i=0; i<board.length; i++){
+            //res.add(board[i].toString()); // if use this it will give hashcode string
 
             String s = new String(board[i]);
             res.add(s);
