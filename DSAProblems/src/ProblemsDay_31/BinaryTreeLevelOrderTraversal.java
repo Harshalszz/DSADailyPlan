@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversal {
-
+//https://leetcode.com/problems/binary-tree-level-order-traversal/
     public static List<List<Integer>> binaryTreeLevelOrderTraversal(TreeNode root){
 
         List<List<Integer>> resList = new ArrayList<>();
@@ -17,7 +17,7 @@ public class BinaryTreeLevelOrderTraversal {
         if(root == null){
             return resList;
         }
-
+        // maintnaing a queue to insert the root value
         Queue<TreeNode> queue = new LinkedList<>();
 
         queue.add(root);
@@ -32,6 +32,7 @@ public class BinaryTreeLevelOrderTraversal {
 
                 TreeNode node = queue.poll();
                 temp.add(node.val);
+                //if the node has left and right child then again added theme inot the queue
 
                 if(node.left != null){
                     queue.add(node.left);
