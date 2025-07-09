@@ -9,9 +9,11 @@ public class Pair<U, V> {
         this.second = second;
     }
 
-    public V getValue() {
+    public int getValue() {
+        return 1;
     }
 
-    public U getKey() {
+    public int getKey() {
+        return 1;
     }
 }
