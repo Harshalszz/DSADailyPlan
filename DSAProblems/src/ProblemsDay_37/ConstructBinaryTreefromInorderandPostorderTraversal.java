@@ -28,7 +28,7 @@ public class ConstructBinaryTreefromInorderandPostorderTraversal {
             return null;
         }
         //as in post order the root will be at last
-        TreeNode root = new TreeNode(postorder[postEnd]); //last ele will be the root as it is post order
+        TreeNode root = new TreeNode(postorder[postEnd]); //last ele will be the root as it is  post order
 
         int inroot = map.get(root.val);
         int numLeft = inroot - inStart;

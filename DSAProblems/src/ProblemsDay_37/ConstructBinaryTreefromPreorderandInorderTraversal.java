@@ -29,7 +29,7 @@ public class ConstructBinaryTreefromPreorderandInorderTraversal {
             return null;
         }
 
-        TreeNode root = new TreeNode(preorder[preStart]); // as it is preorder the first ele will always be the root node
+        TreeNode root = new TreeNode(preorder[preStart]); // as it is preorder  the first ele will always be the root node
 
         int inroot = map.get(root.val);
         int numLeft = inroot - inStart;
