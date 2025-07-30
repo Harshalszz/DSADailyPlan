@@ -1,6 +1,7 @@
 package ProblemsDay_54;
 
 public class MinimumCommonValue {
+    //https://leetcode.com/problems/minimum-common-value/
 
     public int getCommon(int[] nums1, int[] nums2) {
 
