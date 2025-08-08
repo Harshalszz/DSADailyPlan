@@ -1,0 +1,14 @@
+package ProblemsDay_63;
+
+public class AddTwoIntegers {
+    //https://leetcode.com/problems/add-two-integers/
+
+    public int sum(int num1, int num2) {
+        return num1+num2;
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
