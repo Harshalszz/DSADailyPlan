@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CounUnreachablePairNodesUndirecteGraph {
+    //https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/
     List<List<Integer>> x = new ArrayList<>();
     public long countPairs(int n, int[][] edges) {
         for(int i=0; i<n; i++)
