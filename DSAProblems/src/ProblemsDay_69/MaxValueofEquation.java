@@ -2,6 +2,7 @@ package ProblemsDay_69;
 
 import ProblemsDay_33.Pair;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class MaxValueofEquation {
