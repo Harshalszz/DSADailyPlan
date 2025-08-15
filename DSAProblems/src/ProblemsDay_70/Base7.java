@@ -2,8 +2,7 @@ package ProblemsDay_70;
 
 public class Base7 {
     //https://leetcode.com/problems/base-7/
-
-
+    //
     public String convertToBase7(int num) {
         if(num==0){
             return "0";
