@@ -1,4 +1,4 @@
-package ProblemsDay_100;
+package ProblemsDay_91;
 
 public class SmallestNumberWithAllSetBits {
 
