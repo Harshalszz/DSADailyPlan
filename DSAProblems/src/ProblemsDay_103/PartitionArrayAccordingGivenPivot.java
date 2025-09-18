@@ -1,4 +1,4 @@
-package ProblmesDay_103;
+package ProblemsDay_103;
 
 public class PartitionArrayAccordingGivenPivot {
 
