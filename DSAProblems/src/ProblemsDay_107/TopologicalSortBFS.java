@@ -14,7 +14,7 @@ public class TopologicalSortBFS {
 
         for(int i=0; i<V; i++){
             for(int it : adj.get(i)){
-                indegree[i]++;
+                indegree[it]++;
             }
         }
 
@@ -39,7 +39,7 @@ public class TopologicalSortBFS {
 
             //after saving decreemtn the indgreed of that node
             for(int it : adj.get(node)){
-                indegree[node]--;
+                indegree[it]--;
                 if(indegree[it] == 0){
                     queue.add(it);
                 }
