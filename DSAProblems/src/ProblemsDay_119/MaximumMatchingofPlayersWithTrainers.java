@@ -1,4 +1,4 @@
-package ProblmesDay_119;
+package ProblemsDay_119;
 
 import java.util.Arrays;
 
