@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.Random;
 
 interface Master {
-     public default int guess(String word) {}
+     public default int guess(String word) {
+         return 1;
+     }
 }
 public class GuesstheWord {
 
