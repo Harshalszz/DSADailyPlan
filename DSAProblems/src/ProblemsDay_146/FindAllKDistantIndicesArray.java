@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FindAllKDistantIndicesArray {
 
-    //https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/?envType=problem-list-v2&envId=two-pointers
+    // https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/?envType=problem-list-v2&envId=two-pointers
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
         int n = nums.length;
         int[] diff = new int[n + 1];
