@@ -1,7 +1,7 @@
 package ProblemsDay_181;
 
 public class PassthePillow {
-//https://leetcode.com/problems/pass-the-pillow/
+//https:/ /leetcode.com/problems/pass-the-pillow/
     public int passThePillow(int n, int time) {
         int completed = time/(n-1);
         int remaining = time%(n-1);
