@@ -1,0 +1,19 @@
+package ProblemsDay_182;
+
+public class CapitalizetheTitle {
+//https://leetcode.com/problems/capitalize-the-title/
+    public String capitalizeTitle(String title) {
+        String[] words = title.split(" ");
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].length() <= 2) {
+                words[i] = words[i].toLowerCase();
+            } else {
+                words[i] = words[i].substring(0, 1).toUpperCase() + words[i].substring(1).toLowerCase();
+            }
+        }
+        return String.join(" ", words);
+    }
+    public static void main(String[] args) {
+
+    }
+}
