@@ -1,0 +1,42 @@
+package ProblemsDay_185;
+
+public class KthSmallestElementSortedMatrix {
+
+    //https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/?envType=problem-list-v2&envId=array
+    private int countElements(int[][] matrix, int target) {
+        int n = matrix.length;
+        int count = 0, row = n - 1, col = 0;
+
+        while (row >= 0 && col < n) {
+            if (matrix[row][col] <= target) {
+                count += (row + 1);
+                col++;
+            } else {
+                row--;
+            }
+        }
+        return count;
+    }
+
+    public int kthSmallest(int[][] matrix, int k) {
+        int n = matrix.length;
+        int low = matrix[0][0], high = matrix[n - 1][n - 1];
+        int ans = 0;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            int count = countElements(matrix, mid);
+
+            if (count >= k) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+    public static void main(String[] args) {
+
+    }
+}
