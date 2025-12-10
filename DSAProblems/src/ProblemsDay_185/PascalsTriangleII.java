@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PascalsTriangleII {
 
-//https://leetcode.com/problems/pascals-triangle-ii/?envType=problem-list-v2&envId=array
+// https://leetcode.com/problems/pascals-triangle-ii/?envType=problem-list-v2&envId=array
     public List<Integer> getRow(int rowIndex) {
         List<Integer> lst = new ArrayList<>();
         int first = 1;
