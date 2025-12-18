@@ -1,7 +1,7 @@
 package ProblemsDay_193;
 
 public class SwapAdjacentLRString {
-//https://leetcode.com/problems/swap-adjacent-in-lr-string/?envType=problem-list-v2&envId=string
+//https://l eetcode.com/problems/swap-adjacent-in-lr-string/?envType=problem-list-v2&envId=string
     public boolean canTransform(String start, String result) {
         int n = start.length();
         int i = 0, j = 0;
