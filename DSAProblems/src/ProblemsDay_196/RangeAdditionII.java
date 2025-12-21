@@ -1,0 +1,20 @@
+package ProblemsDay_196;
+
+public class RangeAdditionII {
+//https://leetcode.com/problems/range-addition-ii/?envType=problem-list-v2&envId=array
+    public int maxCount(int m, int n, int[][] ops) {
+        int minX = m;
+        int minY = n;
+
+        for (int[] v : ops) { // For each operation v, the code updates minX and minY.
+            minX = Math.min(minX, v[0]);
+            minY = Math.min(minY, v[1]);
+        }
+
+        return minX * minY;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
