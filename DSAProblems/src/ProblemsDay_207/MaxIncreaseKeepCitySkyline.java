@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class MaxIncreaseKeepCitySkyline {
 
-    //https://leetcode.com/problems/max-increase-to-keep-city-skyline/?envType=problem-list-v2&envId=array
+    //https:// leetcode.com/problems/max-increase-to-keep-city-skyline/?envType=problem-list-v2&envId=array
     public int maxIncreaseKeepingSkyline(int[][] grid) {
         int n = grid.length;
 
