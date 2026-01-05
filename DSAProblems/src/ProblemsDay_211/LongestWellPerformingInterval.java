@@ -1,5 +1,6 @@
 package ProblemsDay_211;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class LongestWellPerformingInterval {
