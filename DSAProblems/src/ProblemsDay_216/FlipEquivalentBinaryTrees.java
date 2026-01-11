@@ -1,4 +1,4 @@
-package ProblermsDay_216;
+package ProblemsDay_216;
 
 import ProblemsDay_25.TreeNode;
 
