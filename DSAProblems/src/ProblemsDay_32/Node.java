@@ -8,6 +8,7 @@ public class Node {
 
     public Node random;
     public Node[] children;
+    public boolean isLeaf;
 
     public Node() {}
 
