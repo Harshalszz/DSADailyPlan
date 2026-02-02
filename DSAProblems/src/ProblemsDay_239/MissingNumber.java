@@ -1,7 +1,7 @@
 package ProblemsDay_239;
 
 public class MissingNumber {
-//https://leetcode.com/problems/missing-number/
+// https://leetcode.com/problems/missing-number/
     public int missingNumber(int[] nums) {
 
         int n = nums.length;
