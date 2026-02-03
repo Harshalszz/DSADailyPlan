@@ -1,7 +1,7 @@
 package ProblemsDay_240;
 
 public class CountMonobitIntegers {
-//https://leetcode.com/problems/count-monobit-integers/
+// https://leetcode.com/problems/count-monobit-integers/
     public boolean isvalid(String str){
         if(str.length()==1){
             return true;
