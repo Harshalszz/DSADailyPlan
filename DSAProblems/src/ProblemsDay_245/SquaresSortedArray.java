@@ -2,7 +2,7 @@ package ProblemsDay_245;
 
 public class SquaresSortedArray {
 
-    //https://leetcode.com/problems/squares-of-a-sorted-array/
+    // https://leetcode.com/problems/squares-of-a-sorted-array/
     public int[] sortedSquares(int[] nums) {
         int[] ans = new int[nums.length];
 
