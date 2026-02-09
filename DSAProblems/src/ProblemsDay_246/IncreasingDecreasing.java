@@ -1,7 +1,7 @@
 package ProblemsDay_246;
 
 public class IncreasingDecreasing {
-//https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=string
+// https://leetcode.com/problems/increasing-decreasing-string/?envType=problem-list-v2&envId=string
     public String sortString(String s) {
         int[]freq=new int[26];
         int max=0;
